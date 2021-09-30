@@ -34,7 +34,7 @@ export default function Home() {
         "
         id="aboutMe"
       >
-        <h2 class="mt-1">About Me</h2>
+        <h2 class="mt-1">HAYDEN HAUN</h2>
         <img
           src="./assets/images/Picture1.jpg"
           class="img-fluid pt-2 mainImg curvedCorners"

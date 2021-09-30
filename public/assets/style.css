@@ -17,7 +17,7 @@ a:link {
 }
 
 .linkImg {
-  max-height: 64px;
+  max-height: 120px;
   height: 90%;
   width: auto;
 }
@@ -71,7 +71,7 @@ html {
   border-radius: 2%;
   border-color: rgba(108, 50, 88);
   border-style: solid;
-  border-width: 3px;
+  border-width: 6px;
 }
 
 .curvedCorners2 {
@@ -92,6 +92,11 @@ html {
 
 .customSizing {
   width: 90vw;
+  max-width: 800px;
+}
+
+.customSizing {
+  width: 40vw;
   max-width: 800px;
 }
 
@@ -125,6 +130,11 @@ footer {
   background-color: #292b2c;
 }
 
+.resumeIcons {
+  padding-bottom: 65px;
+  padding-top: 65px;
+}
+
 @media only screen and (max-width: 800px) {
   .responsiveCarouselBtn {
     display: inline;
@@ -144,7 +154,7 @@ footer {
 }
 
 .resumeBtn {
-  background-color: rgb(55, 105, 32);
+  background-color: rgba(108, 50, 88);
 }
 
 /* strong {

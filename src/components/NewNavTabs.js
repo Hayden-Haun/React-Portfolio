@@ -19,20 +19,13 @@ function NewNavTabs({ currentPage, handlePageChange }) {
             Home
           </Nav.Link>
           <Nav.Link
-            href="#about"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          >
-            About
-          </Nav.Link>
-          <Nav.Link
             href="#projects"
             onClick={() => handlePageChange("Projects")}
             className={
               currentPage === "Projects" ? "nav-link active" : "nav-link"
             }
           >
-            Blog
+            Projects
           </Nav.Link>
           <Nav.Link
             href="#contact"
@@ -42,6 +35,15 @@ function NewNavTabs({ currentPage, handlePageChange }) {
             }
           >
             Contact
+          </Nav.Link>
+          <Nav.Link
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
           </Nav.Link>
         </Nav>
         {/* </Container> */}
