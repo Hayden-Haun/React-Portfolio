@@ -1,0 +1,148 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mainImg {
+  max-height: 340px;
+  height: 110%;
+  width: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.linkImg {
+  max-height: 64px;
+  height: 90%;
+  width: auto;
+}
+
+.projectImg {
+  max-height: 100px;
+  height: 90%;
+  width: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.backgroundImage {
+  background-image: url("./images/flatirons-bg-updated.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  max-width: 100%;
+  height: 1600px;
+}
+
+.extraFadeLight {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.extraFadeLight2 {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.linksWidth {
+  width: 2.5rem;
+}
+
+.carousel-custom {
+  width: 800px;
+  height: 400px;
+}
+
+.bg-mandlebrot {
+  background-image: url("./images/mandlebrot.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  width: auto;
+  height: 200px;
+}
+
+.curvedCorners {
+  border-radius: 2%;
+  border-color: rgba(108, 50, 88);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.curvedCorners2 {
+  border-radius: 2%;
+  border-color: rgb(55, 105, 32);
+  border-style: solid;
+  border-width: 5px;
+}
+
+.bg-purp {
+  background: rgba(108, 50, 88);
+  border-color: honeydew;
+}
+
+.linksContainer {
+  margin: auto;
+}
+
+.customSizing {
+  width: 90vw;
+  max-width: 800px;
+}
+
+.carouselCustomPrev {
+  position: static;
+  color: black;
+}
+
+.responsiveCarouselBtn {
+  display: none;
+}
+
+.card-maxW {
+  max-width: 500px;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+h2 {
+  color: rgba(108, 50, 88);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsiveCarouselBtn {
+    display: inline;
+  }
+
+  .lowBtn {
+    display: none;
+  }
+
+  .navUL {
+    flex-direction: column !important;
+  }
+
+  .navLI {
+    margin: auto;
+  }
+}
+
+.resumeBtn {
+  background-color: rgb(55, 105, 32);
+}
+
+/* strong {
+  font-style: italic;
+} */
+
+.eheshgsergsLight {
+  background: rgba(15, 11, 36, 0.952);
+}

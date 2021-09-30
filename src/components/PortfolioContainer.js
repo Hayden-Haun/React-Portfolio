@@ -27,12 +27,16 @@ function PortfolioContainer() {
   return (
     <>
       {/* We are passing the currentPage from state and the function to update it */}
-      <NewNavTabs
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+      <div id="backgroundVid">
+        <main class="container-fluid pt-4 backgroundImage">
+          <NewNavTabs
+            currentPage={currentPage}
+            handlePageChange={handlePageChange}
+          />
+          {/* Here we are calling the renderPage method which will return a component  */}
+          {renderPage()}
+        </main>
+      </div>
     </>
   );
 }
