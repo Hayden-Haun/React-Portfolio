@@ -18,7 +18,7 @@ export default function Home() {
       </p> */}
 
       <section
-        class="
+        className="
           d-flex
           flex-column
           align-items-center
@@ -34,14 +34,14 @@ export default function Home() {
         "
         id="aboutMe"
       >
-        <h2 class="mt-1">HAYDEN HAUN</h2>
+        <h2 className="mt-3 mb-3">HAYDEN HAUN</h2>
         <img
           src="./assets/images/Picture1.jpg"
           class="img-fluid pt-2 mainImg curvedCorners"
           alt="Contact picture"
         />
 
-        <p class="col-8 pt-2 mt-2">
+        <p className="col-8 pt-2 mt-4">
           Hello there! My name is Hayden and I love software development! <br />
           After graduating from University of Colorado, Denver in 2017 with a
           B.S. in Applied Mathematics, I worked corporate business positions for
