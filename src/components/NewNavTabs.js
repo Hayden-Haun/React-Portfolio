@@ -9,7 +9,7 @@ function NewNavTabs({ currentPage, handlePageChange }) {
     <>
       <Navbar bg="dark" variant="dark">
         {/* <Container> */}
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">Hayden</Navbar.Brand>
         <Nav>
           <Nav.Link
             href="#home"
@@ -26,9 +26,11 @@ function NewNavTabs({ currentPage, handlePageChange }) {
             About
           </Nav.Link>
           <Nav.Link
-            href="#blog"
-            onClick={() => handlePageChange("Blog")}
-            className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
+            href="#projects"
+            onClick={() => handlePageChange("Projects")}
+            className={
+              currentPage === "Projects" ? "nav-link active" : "nav-link"
+            }
           >
             Blog
           </Nav.Link>

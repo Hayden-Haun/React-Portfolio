@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NewNavTabs from "./NewNavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 function PortfolioContainer() {
@@ -16,8 +16,8 @@ function PortfolioContainer() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Blog") {
-      return <Blog />;
+    if (currentPage === "Projects") {
+      return <Projects />;
     }
     return <Contact />;
   };
@@ -28,7 +28,7 @@ function PortfolioContainer() {
     <>
       {/* We are passing the currentPage from state and the function to update it */}
       <div id="backgroundVid">
-        <main class="container-fluid pt-4 backgroundImage">
+        <main class="container-fluid backgroundImage">
           <NewNavTabs
             currentPage={currentPage}
             handlePageChange={handlePageChange}
