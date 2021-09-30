@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NewNavTabs from "./NewNavTabs";
+import Footer from "./Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -35,6 +36,7 @@ function PortfolioContainer() {
           />
           {/* Here we are calling the renderPage method which will return a component  */}
           {renderPage()}
+          <Footer />
         </main>
       </div>
     </>
