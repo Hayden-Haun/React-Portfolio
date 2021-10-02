@@ -23,9 +23,9 @@ a:link {
 }
 
 .projectImg {
-  max-height: 100px;
-  height: 90%;
-  width: auto;
+  width: 500px;
+  height: auto;
+  /* height: 90%; */
 }
 
 html {
@@ -55,7 +55,7 @@ html {
 
 .carousel-custom {
   width: 800px;
-  height: 400px;
+  max-height: 1000px;
 }
 
 .bg-mandlebrot {
@@ -95,6 +95,11 @@ html {
   max-width: 800px;
 }
 
+.customSizingProjects {
+  width: 95vw;
+  max-width: 1200px;
+}
+
 .customSizing2 {
   width: 60vw;
   max-width: 500px;
@@ -110,7 +115,7 @@ html {
 }
 
 .card-maxW {
-  max-width: 500px;
+  max-width: 900px;
 }
 
 .boldText {

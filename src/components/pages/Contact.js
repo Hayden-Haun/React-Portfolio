@@ -75,7 +75,6 @@ export default function Contact() {
                 type="email"
                 className="form-control"
                 id="exampleFormControlInput1"
-                placeholder="name@example.com"
                 onChange={(event) => setEmail(event.target.value)}
               />
             </div>

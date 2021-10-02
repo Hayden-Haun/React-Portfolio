@@ -9,17 +9,17 @@ function NewNavTabs({ currentPage, handlePageChange }) {
     <>
       <Navbar bg="dark" variant="dark">
         {/* <Container> */}
-        <Navbar.Brand href="#home">Hayden</Navbar.Brand>
+        <Navbar.Brand href="">Hayden Haun</Navbar.Brand>
         <Nav>
           <Nav.Link
-            href="#home"
+            href=""
             onClick={() => handlePageChange("Home")}
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
             Home
           </Nav.Link>
           <Nav.Link
-            href="#projects"
+            href=""
             onClick={() => handlePageChange("Projects")}
             className={
               currentPage === "Projects" ? "nav-link active" : "nav-link"
@@ -28,7 +28,7 @@ function NewNavTabs({ currentPage, handlePageChange }) {
             Projects
           </Nav.Link>
           <Nav.Link
-            href="#contact"
+            href=""
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
@@ -37,7 +37,7 @@ function NewNavTabs({ currentPage, handlePageChange }) {
             Contact
           </Nav.Link>
           <Nav.Link
-            href="#resume"
+            href=""
             onClick={() => handlePageChange("Resume")}
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
