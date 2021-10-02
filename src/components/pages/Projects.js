@@ -23,6 +23,7 @@ export default function Projects() {
             justify-content-center
             align-items-center
             curvedCorners
+            customSizingProjects
           "
         >
           <h2 class="text-center pb-3">
@@ -82,7 +83,7 @@ export default function Projects() {
 
               <div class="d-flex justify-content-center">
                 <div class="carousel-inner carousel-custom">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active pb-5">
                     <div class="d-flex justify-content-center align-items-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body card-maxW">
@@ -112,7 +113,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/Git-Outside"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -122,7 +123,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- VENU --> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div class="d-flex justify-content-center align-items-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body card-maxW">
@@ -149,7 +150,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/nickwojt/venu"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -159,7 +160,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- Fitness Tracker--> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div class="d-flex justify-content-center align-items-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body card-maxW">
@@ -190,7 +191,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/Fitness-Tracker"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -200,7 +201,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- NOTE TAKER --> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div class="d-flex justify-content-center align-items-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body card-maxW">
@@ -230,7 +231,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/Note-Taker"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -240,7 +241,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- WEATHER DASHBOARD --> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div
                       class="
                         d-flex
@@ -277,7 +278,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/WeatherDashboard-HaydenHaun"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -287,7 +288,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- PASSWORD GENERATOR --> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div class="d-flex justify-content-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body card-maxW">
@@ -316,7 +317,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/PASSWORD-GENERATOR-HAYDENHAUN"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -326,7 +327,7 @@ export default function Projects() {
                     </div>
                   </div>
                   {/* <!-- E-Commerce Backend --> */}
-                  <div class="carousel-item">
+                  <div class="carousel-item pb-5">
                     <div class="d-flex justify-content-center">
                       <div class="card bg-light text-center curvedCorners">
                         <div class="card-body">
@@ -356,7 +357,7 @@ export default function Projects() {
                           </a>
                           <a
                             href="https://github.com/Hayden-Haun/E-Commerce-Back-End"
-                            class="btn btn-success bg-purp"
+                            class="btn btn-success bg-purp ms-5"
                             target="no_blank"
                           >
                             Repository
@@ -369,7 +370,7 @@ export default function Projects() {
               </div>
 
               <a
-                class="carousel-control-prev lowBtn"
+                class="carousel-control-prev lowBtn me-5"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="prev"
@@ -387,7 +388,7 @@ export default function Projects() {
                 role="button"
                 data-slide="next"
               >
-                <span class="sr-only">Next</span>
+                <span class="sr-only ms-5">Next</span>
                 <span
                   class="carousel-control-next-icon"
                   aria-hidden="true"
