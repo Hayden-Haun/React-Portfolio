@@ -7,32 +7,25 @@ export default function Contact() {
 
   const [message, setMessage] = useState("");
 
-  // const [hoveredText, setHoveredText] = useState(false);
+  const [hoveredText, setHoveredText] = useState(false);
 
   function checkValidEmail(e) {
     if (!validator.isEmail(email)) {
-      alert("Invalid email");
+      alert("Please provide a valid email address");
+    } else {
+      alert(
+        "Thank you! I will review your message and respond as soon as possible"
+      );
+      window.location.reload();
     }
   }
 
-  const checkText = () => {
-    if (hoveredText) {
+  const checkText = (e) => {
+    if (hoveredText && message.length < 1) {
       setHoveredText(false);
-      // alert("Please provide a message");
+      alert("Please provide a message");
     }
   };
-
-  // const emailState = (e = {});
-
-  // const validateEmail = (e) => {
-  //   var email = e.target.value;
-
-  //   if (validator.isEmail(email)) {
-  //     setEmail("Valid Email :)");
-  //   } else {
-  //     setEmail("Enter valid Email!");
-  //   }
-  // };
 
   return (
     <div className="d-flex justify-content-center align-items-center">
@@ -84,14 +77,8 @@ export default function Contact() {
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
                 onChange={(event) => setEmail(event.target.value)}
-                // onSubmit={() => checkValidEmail()}
               />
             </div>
-
-            {/* <Form.Control
-              type="email"
-              onChange={(event) => setEmail(event.target.value)}
-            /> */}
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>
@@ -104,8 +91,8 @@ export default function Contact() {
                 className="form-control"
                 rows="3"
                 onChange={(event) => setMessage(event.target.value)}
-                // onMouseEnter={setHoveredText(true)}
-                // onMouseLeave={setHoveredText(false)}
+                onMouseEnter={(e) => setHoveredText(true)}
+                onMouseLeave={(e) => checkText(e)}
               ></textarea>
             </div>
           </Form.Group>
