@@ -1,6 +1,6 @@
 # Portfolio with React
 
-LIVE URL: https://offline-budget-app-hh.herokuapp.com/
+LIVE URL: https://haydenhaun-portfolio-react.herokuapp.com/
 
 REPOSITORY: https://github.com/Hayden-Haun/React-Portfolio
 
